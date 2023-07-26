@@ -1,0 +1,57 @@
+*{
+  padding: 0%;
+  
+}
+body{
+  background-color: rgb(132, 132, 132);
+}
+/* BARRA LATERAL */
+nav{
+  width: 10%;
+  height: 100%;
+  border: 1px solid black;
+  float: left;
+  margin-right: 5%;
+}
+
+.logo{
+  width: 100%;
+  height: 15%;
+}
+
+ul li{
+  width: 100%;
+  list-style: none;
+}
+
+/* CABEZAL */
+header{
+  width: 80%;
+  padding: 5px;
+  border: 1px solid black;
+  float: left;
+}
+
+/* GALERIA */
+
+main{
+  border: 1px solid black;
+  float: left;
+  /* width: 80%; */
+  
+  display: flex;
+  max-width: 100vw;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  width: 450px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  padding: 6px;
+}
